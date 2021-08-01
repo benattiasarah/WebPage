@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    font-family: sans-serif;  
+}
+
+
+
+nav ul, nav li, nav p {
+    display: inline-block;
+}
+
+nav ul{
+    float:right;
+}
+
+nav p, nav li{
+    padding:3vh;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 17px;
+}
+
+nav li:hover{
+    background-color: rgb(204, 203, 203);
+}
+
+.couverture{
+    width:100%;
+    height:92vh;
+    background-image: url(img/architect.jpg);
+    background-size: cover;
+}
+
+.title{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+h1{
+    font-weight:normal;
+    text-align: center;
+    width:fit-content;
+    color:white;
+}
+
+.br-title{
+    font-weight: bold;
+    background-color:rgba(0, 0, 0, 0.85);
+    padding: 5px 10px;
+}
+
+.content, footer{
+    margin:40px;
+}
+
+h3{
+    padding:15px 0;
+}
+
+.projects p{
+    background-color: black;
+    color:white;
+    display:inline;
+    float:left;
+}
+.houses{
+    display:block;
+    text-align: center;
+}
+
+.house{
+    width:24% ;
+    height:200px ;
+    background-size: cover;
+    display: inline-block;
+    margin:2px;
+    align-items: center;
+
+}
+
+#house1{
+    background-image: url(img/house1.jpg);
+}
+#house2{
+    background-image: url(img/house2.jpg);
+}
+#house3{
+    background-image: url(img/house3.jpg);
+}
+#house4{
+    background-image: url(img/house4.jpg);
+}
+#house5{
+    background-image: url(img/house5.jpg);
+}
+#house6{
+    background-image: url(img/house6.jpg);
+}
+#house7{
+    background-image: url(img/house7.jpg);
+}
+#house8{
+    background-image: url(img/house8.jpg);
+}
+
+.staff{
+    display: block;
+    margin:30px;
+
+}
+
+.staff-card{
+    display:inline-block;
+    width:24%;
+    text-align:center;
+}
+
+.staff img{
+    width:18em;
+}
+
+.post{
+    color:grey;
+}
+
+.post-description{
+    text-align: left;
+}
+
+.btn{
+    width:100%;
+    border:0;
+    padding:10px;
+    margin:5px 0;
+    background-color:rgb(226, 214, 214);
+}
+
+.input-box{
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    padding:10px;
+    margin:5px 0;
+}
+::placeholder{
+    color:grey;
+}
+
+.form-btn{
+    font-size: 20px;
+    padding:15px;
+    margin:15px 0;
+    color:white;
+    background-color: black;
+    border:0;
+}
+
+.map{
+    width:100%;
+}
